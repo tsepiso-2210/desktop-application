@@ -1,0 +1,79 @@
+
+/* Main container styling */
+.main-container {
+    -fx-background-color: grey; /* Light gray for a clean look */
+    -fx-padding: 40px;
+    -fx-alignment: center;
+}
+
+/* Title styling */
+.main-title {
+    -fx-font-size: 38px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1a252f; /* Dark blue for strong contrast */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 3, 0, 0, 2);
+    -fx-padding: 0 0 25px 0;
+}
+
+/* Category button styling */
+.category-button {
+    -fx-background-color: #2c3e50; /* Dark blue */
+    -fx-text-fill: white;
+    -fx-font-size: 17px;
+    -fx-padding: 15px 35px;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 3, 0, 0, 2);
+}
+
+.category-button:hover {
+    -fx-background-color: #34495e; /* Slightly lighter shade */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.35), 5, 0, 0, 3);
+    -fx-translate-y: -2px;
+}
+
+.category-button:pressed {
+    -fx-background-color: #1f2e3e;
+    -fx-translate-y: 1px;
+}
+
+/* Loading indicator styling */
+.loading-indicator {
+    -fx-progress-color: #2c3e50;
+}
+
+/* Dialog styling */
+.dialog-pane {
+    -fx-background-color: #ffffff;
+    -fx-padding: 20px;
+}
+
+.dialog-pane .header-panel {
+    -fx-background-color: #2c3e50;
+}
+
+.dialog-pane .header-panel .label {
+    -fx-text-fill: white;
+}
+
+.dialog-pane .content {
+    -fx-padding: 20px;
+}
+
+/* Error dialog */
+.error-dialog {
+    -fx-background-color: #ffebee;
+}
+
+.error-dialog .header-panel {
+    -fx-background-color: #c0392b; /* Strong red */
+}
+
+/* Info dialog */
+.info-dialog {
+    -fx-background-color: #e3f2fd;
+}
+
+.info-dialog .header-panel {
+    -fx-background-color: #2980b9;
+}

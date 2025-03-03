@@ -1,0 +1,438 @@
+2025-03-03 04:21:49,308 [INFO] from com.jpro.activity in scala-execution-context-global-36 - Starting the server
+2025-03-03 04:21:49,314 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 -  *** Starting JPro: https://www.jpro.one/ ***
+2025-03-03 04:21:49,314 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - OS: Windows 11
+2025-03-03 04:21:49,375 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - JPro: 2025.1.0
+2025-03-03 04:21:49,375 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - Java version: 23.0.2
+2025-03-03 04:21:49,375 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - JVM: 23.0.2 Oracle Corporation
+2025-03-03 04:21:49,379 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - JavaFX jar: file:/C:/Users/Administrator/.m2/repository/org/openjfx/javafx-graphics/23.0.1-jpro+3/javafx-graphics-23.0.1-jpro+3-win.jar
+2025-03-03 04:21:49,397 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - Configuring logging from url: 'jar:file:/C:/Users/Administrator/.m2/repository/one/jpro/jpro-server_2.12/2025.1.0/jpro-server_2.12-2025.1.0.jar!/logback-jpro-default.xml'
+2025-03-03 04:21:51,240 [INFO] from com.jpro.internal.server.JProInitializer$ in JavaFX Application Thread - JavaFX version: 23.0.1-jpro+3
+2025-03-03 04:21:51,396 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - finished init!
+2025-03-03 04:21:51,418 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - [JPro] -> Server started: {start_time: 1741004509305, os_name: Windows 11, jpro_version: 2025.1.0}
+2025-03-03 04:21:52,186 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-5 - Slf4jLogger started
+2025-03-03 04:21:53,402 [INFO] from play.api.Play in Thread-0 - Application started (Prod) (no global state)
+2025-03-03 04:21:54,275 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Enabling HTTP/2 on Akka HTTP server...
+2025-03-03 04:21:54,276 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Listening for HTTP on /[0:0:0:0:0:0:0:0]:8080
+2025-03-03 04:21:57,136 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-6 - application requested: default params: Map()
+2025-03-03 04:21:57,145 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-6 - Creating Application: default
+2025-03-03 04:21:57,147 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-6 - remoteAddress 0:0:0:0:0:0:0:1
+2025-03-03 04:21:57,148 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-6 - host          localhost:8080
+2025-03-03 04:21:57,148 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-6 - uri           /app/ws/default
+2025-03-03 04:21:57,586 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View created: {app_name: default, host_name: localhost:8080, instance_id: 48057251, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2025-03-03 04:21:58,077 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance created: {app_name: default, host_name: localhost:8080, instance_id: 48057251, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2025-03-03 04:30:19,602 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View closed: {app_name: default, host_name: localhost:8080, instance_id: 48057251, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1, reason: websocket-stop}
+2025-03-03 04:30:19,612 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2025-03-03 04:30:19,612 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - Application closed:
+2025-03-03 04:30:19,621 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - startTime      : Mon Mar 03 04:25:47 PST 2025      
+2025-03-03 04:30:19,621 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageLatency : 00:00:00.004 
+2025-03-03 04:30:19,621 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageJitter  : 00:00:00.001  
+2025-03-03 04:30:19,623 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateServer: 00:00:00.000
+2025-03-03 04:30:19,623 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateClient: 00:00:00.000
+2025-03-03 04:30:19,623 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - raw            : 207666
+2025-03-03 04:30:19,623 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - zipped         : 65714
+2025-03-03 04:30:19,623 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2025-03-03 04:30:19,630 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance closed: {app_name: default, host_name: localhost:8080, instance_id: 48057251, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1, reason: close-tab-closed}
+2025-03-03 04:30:20,022 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-16 - application requested: default params: Map(instanceID -> List(48057251))
+2025-03-03 04:30:20,023 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-16 - Creating Application: default
+2025-03-03 04:30:20,026 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-16 - remoteAddress 0:0:0:0:0:0:0:1
+2025-03-03 04:30:20,029 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-16 - host          localhost:8080
+2025-03-03 04:30:20,029 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-16 - uri           /app/ws/default?instanceID=48057251
+2025-03-03 04:30:20,111 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View created: {app_name: default, host_name: localhost:8080, instance_id: 1847214862, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2025-03-03 04:30:20,196 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance created: {app_name: default, host_name: localhost:8080, instance_id: 1847214862, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2025-03-03 04:31:08,726 [INFO] from com.jpro.activity in scala-execution-context-global-36 - Starting the server
+2025-03-03 04:31:08,732 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 -  *** Starting JPro: https://www.jpro.one/ ***
+2025-03-03 04:31:08,732 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - OS: Windows 11
+2025-03-03 04:31:08,790 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - JPro: 2025.1.0
+2025-03-03 04:31:08,790 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - Java version: 23.0.2
+2025-03-03 04:31:08,790 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - JVM: 23.0.2 Oracle Corporation
+2025-03-03 04:31:08,794 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - JavaFX jar: file:/C:/Users/Administrator/.m2/repository/org/openjfx/javafx-graphics/23.0.1-jpro+3/javafx-graphics-23.0.1-jpro+3-win.jar
+2025-03-03 04:31:08,807 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - Configuring logging from url: 'jar:file:/C:/Users/Administrator/.m2/repository/one/jpro/jpro-server_2.12/2025.1.0/jpro-server_2.12-2025.1.0.jar!/logback-jpro-default.xml'
+2025-03-03 04:31:10,126 [INFO] from com.jpro.internal.server.JProInitializer$ in JavaFX Application Thread - JavaFX version: 23.0.1-jpro+3
+2025-03-03 04:31:10,270 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - finished init!
+2025-03-03 04:31:10,277 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - [JPro] -> Server started: {start_time: 1741005068725, os_name: Windows 11, jpro_version: 2025.1.0}
+2025-03-03 04:31:10,761 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-5 - Slf4jLogger started
+2025-03-03 04:31:12,003 [INFO] from play.api.Play in Thread-0 - Application started (Prod) (no global state)
+2025-03-03 04:31:12,844 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Enabling HTTP/2 on Akka HTTP server...
+2025-03-03 04:31:12,845 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Listening for HTTP on /[0:0:0:0:0:0:0:0]:8080
+2025-03-03 04:31:14,589 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-10 - application requested: default params: Map()
+2025-03-03 04:31:14,595 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-10 - Creating Application: default
+2025-03-03 04:31:14,598 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-10 - remoteAddress 0:0:0:0:0:0:0:1
+2025-03-03 04:31:14,598 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-10 - host          localhost:8080
+2025-03-03 04:31:14,598 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-10 - uri           /app/ws/default
+2025-03-03 04:31:14,999 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View created: {app_name: default, host_name: localhost:8080, instance_id: 1333529441, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2025-03-03 04:31:15,431 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance created: {app_name: default, host_name: localhost:8080, instance_id: 1333529441, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2025-03-03 04:31:23,527 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View closed: {app_name: default, host_name: localhost:8080, instance_id: 1333529441, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1, reason: tab-closed}
+2025-03-03 04:31:23,538 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2025-03-03 04:31:23,538 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - Application closed:
+2025-03-03 04:31:23,554 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - startTime      : Mon Mar 03 04:31:23 PST 2025      
+2025-03-03 04:31:23,554 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageLatency : 00:00:00.006 
+2025-03-03 04:31:23,555 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageJitter  : 00:00:00.002  
+2025-03-03 04:31:23,559 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateServer: 00:00:00.000
+2025-03-03 04:31:23,562 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateClient: 00:00:00.000
+2025-03-03 04:31:23,563 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - raw            : 82244
+2025-03-03 04:31:23,563 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - zipped         : 20239
+2025-03-03 04:31:23,563 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2025-03-03 04:31:23,595 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-5 - application requested: default params: Map(instanceID -> List(1847214862))
+2025-03-03 04:31:23,599 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-5 - Creating Application: default
+2025-03-03 04:31:23,600 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-5 - remoteAddress 0:0:0:0:0:0:0:1
+2025-03-03 04:31:23,601 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-5 - host          localhost:8080
+2025-03-03 04:31:23,601 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-5 - uri           /app/ws/default?instanceID=1847214862
+2025-03-03 04:31:23,646 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View created: {app_name: default, host_name: localhost:8080, instance_id: 203189231, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2025-03-03 04:31:23,714 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance created: {app_name: default, host_name: localhost:8080, instance_id: 203189231, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2025-03-03 04:31:24,527 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance closed: {app_name: default, host_name: localhost:8080, instance_id: 1333529441, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1, reason: close-tab-closed}
+2025-03-03 04:31:25,249 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View closed: {app_name: default, host_name: localhost:8080, instance_id: 203189231, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1, reason: tab-closed}
+2025-03-03 04:31:25,253 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2025-03-03 04:31:25,253 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - Application closed:
+2025-03-03 04:31:25,254 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - startTime      : Mon Mar 03 04:31:25 PST 2025      
+2025-03-03 04:31:25,255 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageLatency : 00:00:00.004 
+2025-03-03 04:31:25,255 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageJitter  : 00:00:00.002  
+2025-03-03 04:31:25,255 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateServer: 00:00:00.000
+2025-03-03 04:31:25,255 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateClient: 00:00:00.000
+2025-03-03 04:31:25,255 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - raw            : 12535
+2025-03-03 04:31:25,255 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - zipped         : 2364
+2025-03-03 04:31:25,255 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2025-03-03 04:31:26,251 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance closed: {app_name: default, host_name: localhost:8080, instance_id: 203189231, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1, reason: close-tab-closed}
+2025-03-03 04:33:49,436 [INFO] from com.jpro.activity in scala-execution-context-global-36 - Starting the server
+2025-03-03 04:33:49,447 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 -  *** Starting JPro: https://www.jpro.one/ ***
+2025-03-03 04:33:49,448 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - OS: Windows 11
+2025-03-03 04:33:49,483 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - JPro: 2025.1.0
+2025-03-03 04:33:49,483 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - Java version: 23.0.2
+2025-03-03 04:33:49,483 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - JVM: 23.0.2 Oracle Corporation
+2025-03-03 04:33:49,493 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - JavaFX jar: file:/C:/Users/Administrator/.m2/repository/org/openjfx/javafx-graphics/23.0.1-jpro+3/javafx-graphics-23.0.1-jpro+3-win.jar
+2025-03-03 04:33:49,506 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - Configuring logging from url: 'jar:file:/C:/Users/Administrator/.m2/repository/one/jpro/jpro-server_2.12/2025.1.0/jpro-server_2.12-2025.1.0.jar!/logback-jpro-default.xml'
+2025-03-03 04:33:50,918 [INFO] from com.jpro.internal.server.JProInitializer$ in JavaFX Application Thread - JavaFX version: 23.0.1-jpro+3
+2025-03-03 04:33:51,121 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - finished init!
+2025-03-03 04:33:51,154 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - [JPro] -> Server started: {start_time: 1741005229433, os_name: Windows 11, jpro_version: 2025.1.0}
+2025-03-03 04:33:51,761 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-6 - Slf4jLogger started
+2025-03-03 04:33:53,023 [INFO] from play.api.Play in Thread-0 - Application started (Prod) (no global state)
+2025-03-03 04:33:53,955 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Enabling HTTP/2 on Akka HTTP server...
+2025-03-03 04:33:53,956 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Listening for HTTP on /[0:0:0:0:0:0:0:0]:8080
+2025-03-03 04:33:55,806 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-6 - application requested: default params: Map()
+2025-03-03 04:33:55,814 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-6 - Creating Application: default
+2025-03-03 04:33:55,820 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-6 - remoteAddress 0:0:0:0:0:0:0:1
+2025-03-03 04:33:55,821 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-6 - host          localhost:8080
+2025-03-03 04:33:55,821 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-6 - uri           /app/ws/default
+2025-03-03 04:33:56,202 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View created: {app_name: default, host_name: localhost:8080, instance_id: 484595358, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2025-03-03 04:33:56,716 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance created: {app_name: default, host_name: localhost:8080, instance_id: 484595358, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2025-03-03 04:51:06,887 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View closed: {app_name: default, host_name: localhost:8080, instance_id: 484595358, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1, reason: websocket-stop}
+2025-03-03 04:51:06,901 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2025-03-03 04:51:06,901 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - Application closed:
+2025-03-03 04:51:06,920 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - startTime      : Mon Mar 03 04:51:06 PST 2025      
+2025-03-03 04:51:06,921 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageLatency : 00:00:00.003 
+2025-03-03 04:51:06,921 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageJitter  : 00:00:00.000  
+2025-03-03 04:51:06,925 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateServer: 00:00:00.000
+2025-03-03 04:51:06,926 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateClient: 00:00:00.000
+2025-03-03 04:51:06,928 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - raw            : 287074
+2025-03-03 04:51:06,928 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - zipped         : 87723
+2025-03-03 04:51:06,928 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2025-03-03 04:51:07,293 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - application requested: default params: Map(instanceID -> List(484595358))
+2025-03-03 04:51:07,294 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - Creating Application: default
+2025-03-03 04:51:07,295 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - remoteAddress 0:0:0:0:0:0:0:1
+2025-03-03 04:51:07,295 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - host          localhost:8080
+2025-03-03 04:51:07,295 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - uri           /app/ws/default?instanceID=484595358
+2025-03-03 04:51:07,315 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View created: {app_name: default, host_name: localhost:8080, instance_id: 484595358, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2025-03-03 05:15:34,371 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View closed: {app_name: default, host_name: localhost:8080, instance_id: 484595358, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1, reason: websocket-stop}
+2025-03-03 05:15:34,381 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2025-03-03 05:15:34,381 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - Application closed:
+2025-03-03 05:15:34,382 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - startTime      : Mon Mar 03 05:15:34 PST 2025      
+2025-03-03 05:15:34,382 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageLatency : 00:00:00.002 
+2025-03-03 05:15:34,382 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageJitter  : 00:00:00.000  
+2025-03-03 05:15:34,382 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateServer: 00:00:00.000
+2025-03-03 05:15:34,382 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateClient: 00:00:00.000
+2025-03-03 05:15:34,382 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - raw            : 101335
+2025-03-03 05:15:34,382 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - zipped         : 26088
+2025-03-03 05:15:34,388 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2025-03-03 05:15:35,385 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance closed: {app_name: default, host_name: localhost:8080, instance_id: 484595358, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1, reason: close-tab-closed}
+2025-03-03 05:15:37,001 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-18 - application requested: default params: Map(instanceID -> List(484595358))
+2025-03-03 05:15:37,001 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-18 - Creating Application: default
+2025-03-03 05:15:37,001 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-18 - remoteAddress 0:0:0:0:0:0:0:1
+2025-03-03 05:15:37,001 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-18 - host          localhost:8080
+2025-03-03 05:15:37,001 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-18 - uri           /app/ws/default?instanceID=484595358
+2025-03-03 05:15:37,012 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View created: {app_name: default, host_name: localhost:8080, instance_id: 749909356, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2025-03-03 05:15:37,037 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance created: {app_name: default, host_name: localhost:8080, instance_id: 749909356, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2025-03-03 05:15:37,092 [ERROR] from com.jpro.JS in JavaFX Application Thread - received msg: Unexpected exception: NotFoundError: Failed to execute 'setPointerCapture' on 'Element': No active pointer with the given id is found.
+2025-03-03 05:15:41,820 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View closed: {app_name: default, host_name: localhost:8080, instance_id: 749909356, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1, reason: tab-closed}
+2025-03-03 05:15:41,824 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2025-03-03 05:15:41,824 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - Application closed:
+2025-03-03 05:15:41,826 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - startTime      : Mon Mar 03 05:15:41 PST 2025      
+2025-03-03 05:15:41,826 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageLatency : 00:00:00.004 
+2025-03-03 05:15:41,827 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageJitter  : 00:00:00.001  
+2025-03-03 05:15:41,827 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateServer: 00:00:00.000
+2025-03-03 05:15:41,827 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateClient: 00:00:00.000
+2025-03-03 05:15:41,827 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - raw            : 56541
+2025-03-03 05:15:41,827 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - zipped         : 11413
+2025-03-03 05:15:41,828 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2025-03-03 05:15:42,808 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance closed: {app_name: default, host_name: localhost:8080, instance_id: 749909356, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1, reason: close-tab-closed}
+2025-03-03 05:26:07,212 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-24 - jpro.plainFile - Couldn't get resource for: 'jpro/html/HNAP1/index.html'
+2025-03-03 05:31:01,335 [INFO] from com.jpro.activity in scala-execution-context-global-36 - Starting the server
+2025-03-03 05:31:01,340 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 -  *** Starting JPro: https://www.jpro.one/ ***
+2025-03-03 05:31:01,340 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - OS: Windows 11
+2025-03-03 05:31:01,394 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - JPro: 2025.1.0
+2025-03-03 05:31:01,394 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - Java version: 23.0.2
+2025-03-03 05:31:01,395 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - JVM: 23.0.2 Oracle Corporation
+2025-03-03 05:31:01,397 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - JavaFX jar: file:/C:/Users/Administrator/.m2/repository/org/openjfx/javafx-graphics/23.0.1-jpro+3/javafx-graphics-23.0.1-jpro+3-win.jar
+2025-03-03 05:31:01,406 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - Configuring logging from url: 'jar:file:/C:/Users/Administrator/.m2/repository/one/jpro/jpro-server_2.12/2025.1.0/jpro-server_2.12-2025.1.0.jar!/logback-jpro-default.xml'
+2025-03-03 05:31:02,633 [INFO] from com.jpro.internal.server.JProInitializer$ in JavaFX Application Thread - JavaFX version: 23.0.1-jpro+3
+2025-03-03 05:31:02,889 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - finished init!
+2025-03-03 05:31:02,905 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - [JPro] -> Server started: {start_time: 1741008661334, os_name: Windows 11, jpro_version: 2025.1.0}
+2025-03-03 05:31:03,478 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-5 - Slf4jLogger started
+2025-03-03 05:31:04,621 [INFO] from play.api.Play in Thread-0 - Application started (Prod) (no global state)
+2025-03-03 05:31:05,446 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Enabling HTTP/2 on Akka HTTP server...
+2025-03-03 05:31:05,448 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Listening for HTTP on /[0:0:0:0:0:0:0:0]:8080
+2025-03-03 05:31:07,396 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - application requested: default params: Map()
+2025-03-03 05:31:07,402 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - Creating Application: default
+2025-03-03 05:31:07,407 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - remoteAddress 0:0:0:0:0:0:0:1
+2025-03-03 05:31:07,407 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - host          localhost:8080
+2025-03-03 05:31:07,407 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - uri           /app/ws/default
+2025-03-03 05:31:07,801 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View created: {app_name: default, host_name: localhost:8080, instance_id: 822593752, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2025-03-03 05:31:08,286 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance created: {app_name: default, host_name: localhost:8080, instance_id: 822593752, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2025-03-03 05:31:16,333 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View closed: {app_name: default, host_name: localhost:8080, instance_id: 822593752, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1, reason: tab-closed}
+2025-03-03 05:31:16,344 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2025-03-03 05:31:16,346 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - Application closed:
+2025-03-03 05:31:16,367 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - startTime      : Mon Mar 03 05:31:16 PST 2025      
+2025-03-03 05:31:16,368 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageLatency : 00:00:00.005 
+2025-03-03 05:31:16,368 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageJitter  : 00:00:00.002  
+2025-03-03 05:31:16,374 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateServer: 00:00:00.000
+2025-03-03 05:31:16,378 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateClient: 00:00:00.000
+2025-03-03 05:31:16,379 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - raw            : 64834
+2025-03-03 05:31:16,380 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - zipped         : 14116
+2025-03-03 05:31:16,381 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2025-03-03 05:31:17,354 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance closed: {app_name: default, host_name: localhost:8080, instance_id: 822593752, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1, reason: close-tab-closed}
+2025-03-03 06:57:09,003 [INFO] from com.jpro.activity in scala-execution-context-global-36 - Starting the server
+2025-03-03 06:57:09,013 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 -  *** Starting JPro: https://www.jpro.one/ ***
+2025-03-03 06:57:09,013 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - OS: Windows 11
+2025-03-03 06:57:09,045 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - JPro: 2025.1.0
+2025-03-03 06:57:09,045 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - Java version: 23.0.2
+2025-03-03 06:57:09,045 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - JVM: 23.0.2 Oracle Corporation
+2025-03-03 06:57:09,048 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - JavaFX jar: file:/C:/Users/Administrator/.m2/repository/org/openjfx/javafx-graphics/23.0.1-jpro+3/javafx-graphics-23.0.1-jpro+3-win.jar
+2025-03-03 06:57:09,061 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - Configuring logging from url: 'jar:file:/C:/Users/Administrator/.m2/repository/one/jpro/jpro-server_2.12/2025.1.0/jpro-server_2.12-2025.1.0.jar!/logback-jpro-default.xml'
+2025-03-03 06:57:10,556 [INFO] from com.jpro.internal.server.JProInitializer$ in JavaFX Application Thread - JavaFX version: 23.0.1-jpro+3
+2025-03-03 06:57:10,735 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - finished init!
+2025-03-03 06:57:10,745 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - [JPro] -> Server started: {start_time: 1741013829000, os_name: Windows 11, jpro_version: 2025.1.0}
+2025-03-03 06:57:11,289 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-5 - Slf4jLogger started
+2025-03-03 06:57:12,622 [INFO] from play.api.Play in Thread-0 - Application started (Prod) (no global state)
+2025-03-03 06:57:13,449 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Enabling HTTP/2 on Akka HTTP server...
+2025-03-03 06:57:13,451 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Listening for HTTP on /[0:0:0:0:0:0:0:0]:8080
+2025-03-03 06:57:16,097 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - application requested: default params: Map()
+2025-03-03 06:57:16,101 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - Creating Application: default
+2025-03-03 06:57:16,104 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - remoteAddress 0:0:0:0:0:0:0:1
+2025-03-03 06:57:16,104 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - host          localhost:8080
+2025-03-03 06:57:16,104 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - uri           /app/ws/default
+2025-03-03 06:57:16,464 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View created: {app_name: default, host_name: localhost:8080, instance_id: 1306717504, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2025-03-03 06:57:17,014 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance created: {app_name: default, host_name: localhost:8080, instance_id: 1306717504, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2025-03-03 06:57:31,527 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View closed: {app_name: default, host_name: localhost:8080, instance_id: 1306717504, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1, reason: tab-closed}
+2025-03-03 06:57:31,538 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2025-03-03 06:57:31,540 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - Application closed:
+2025-03-03 06:57:31,557 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - startTime      : Mon Mar 03 06:57:31 PST 2025      
+2025-03-03 06:57:31,558 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageLatency : 00:00:00.004 
+2025-03-03 06:57:31,558 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageJitter  : 00:00:00.000  
+2025-03-03 06:57:31,562 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateServer: 00:00:00.000
+2025-03-03 06:57:31,564 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateClient: 00:00:00.000
+2025-03-03 06:57:31,565 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - raw            : 165748
+2025-03-03 06:57:31,565 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - zipped         : 48588
+2025-03-03 06:57:31,565 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2025-03-03 06:57:32,524 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance closed: {app_name: default, host_name: localhost:8080, instance_id: 1306717504, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1, reason: close-tab-closed}
+2025-03-03 10:52:28,921 [INFO] from com.jpro.activity in scala-execution-context-global-36 - Starting the server
+2025-03-03 10:52:28,925 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 -  *** Starting JPro: https://www.jpro.one/ ***
+2025-03-03 10:52:28,925 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - OS: Windows 11
+2025-03-03 10:52:28,954 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - JPro: 2025.1.0
+2025-03-03 10:52:28,954 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - Java version: 23.0.2
+2025-03-03 10:52:28,954 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - JVM: 23.0.2 Oracle Corporation
+2025-03-03 10:52:28,956 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - JavaFX jar: file:/C:/Users/Administrator/.m2/repository/org/openjfx/javafx-graphics/23.0.1-jpro+3/javafx-graphics-23.0.1-jpro+3-win.jar
+2025-03-03 10:52:28,963 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - Configuring logging from url: 'jar:file:/C:/Users/Administrator/.m2/repository/one/jpro/jpro-server_2.12/2025.1.0/jpro-server_2.12-2025.1.0.jar!/logback-jpro-default.xml'
+2025-03-03 10:52:29,838 [INFO] from com.jpro.internal.server.JProInitializer$ in JavaFX Application Thread - JavaFX version: 23.0.1-jpro+3
+2025-03-03 10:52:29,941 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - finished init!
+2025-03-03 10:52:29,974 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - [JPro] -> Server started: {start_time: 1741027948918, os_name: Windows 11, jpro_version: 2025.1.0}
+2025-03-03 10:52:31,749 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-6 - Slf4jLogger started
+2025-03-03 10:52:34,334 [INFO] from play.api.Play in Thread-0 - Application started (Prod) (no global state)
+2025-03-03 10:52:35,263 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Enabling HTTP/2 on Akka HTTP server...
+2025-03-03 10:52:35,264 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Listening for HTTP on /[0:0:0:0:0:0:0:0]:8080
+2025-03-03 10:52:38,009 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-10 - application requested: default params: Map()
+2025-03-03 10:52:38,017 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-10 - Creating Application: default
+2025-03-03 10:52:38,023 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-10 - remoteAddress 0:0:0:0:0:0:0:1
+2025-03-03 10:52:38,023 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-10 - host          localhost:8080
+2025-03-03 10:52:38,023 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-10 - uri           /app/ws/default
+2025-03-03 10:52:39,268 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View created: {app_name: default, host_name: localhost:8080, instance_id: 105649841, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2025-03-03 10:52:40,632 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance created: {app_name: default, host_name: localhost:8080, instance_id: 105649841, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2025-03-03 10:54:58,644 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View closed: {app_name: default, host_name: localhost:8080, instance_id: 105649841, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1, reason: tab-closed}
+2025-03-03 10:54:58,650 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2025-03-03 10:54:58,650 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - Application closed:
+2025-03-03 10:54:58,674 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - startTime      : Mon Mar 03 10:54:58 PST 2025      
+2025-03-03 10:54:58,675 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageLatency : 00:00:00.002 
+2025-03-03 10:54:58,675 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageJitter  : 00:00:00.001  
+2025-03-03 10:54:58,677 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateServer: 00:00:00.000
+2025-03-03 10:54:58,681 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateClient: 00:00:00.000
+2025-03-03 10:54:58,681 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - raw            : 129858
+2025-03-03 10:54:58,681 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - zipped         : 34835
+2025-03-03 10:54:58,682 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2025-03-03 10:54:59,645 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance closed: {app_name: default, host_name: localhost:8080, instance_id: 105649841, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1, reason: close-tab-closed}
+2025-03-03 11:37:41,524 [INFO] from com.jpro.activity in scala-execution-context-global-36 - Starting the server
+2025-03-03 11:37:41,530 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 -  *** Starting JPro: https://www.jpro.one/ ***
+2025-03-03 11:37:41,530 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - OS: Windows 11
+2025-03-03 11:37:41,601 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - JPro: 2025.1.0
+2025-03-03 11:37:41,601 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - Java version: 23.0.2
+2025-03-03 11:37:41,601 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - JVM: 23.0.2 Oracle Corporation
+2025-03-03 11:37:41,602 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - JavaFX jar: file:/C:/Users/Administrator/.m2/repository/org/openjfx/javafx-graphics/23.0.1-jpro+3/javafx-graphics-23.0.1-jpro+3-win.jar
+2025-03-03 11:37:41,617 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - Configuring logging from url: 'jar:file:/C:/Users/Administrator/.m2/repository/one/jpro/jpro-server_2.12/2025.1.0/jpro-server_2.12-2025.1.0.jar!/logback-jpro-default.xml'
+2025-03-03 11:37:42,709 [INFO] from com.jpro.internal.server.JProInitializer$ in JavaFX Application Thread - JavaFX version: 23.0.1-jpro+3
+2025-03-03 11:37:42,877 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - finished init!
+2025-03-03 11:37:42,928 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - [JPro] -> Server started: {start_time: 1741030661509, os_name: Windows 11, jpro_version: 2025.1.0}
+2025-03-03 11:37:43,549 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-8 - Slf4jLogger started
+2025-03-03 11:37:44,309 [INFO] from play.api.Play in Thread-0 - Application started (Prod) (no global state)
+2025-03-03 11:37:44,850 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Enabling HTTP/2 on Akka HTTP server...
+2025-03-03 11:37:44,852 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Listening for HTTP on /[0:0:0:0:0:0:0:0]:8080
+2025-03-03 11:37:47,181 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - application requested: default params: Map()
+2025-03-03 11:37:47,185 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - Creating Application: default
+2025-03-03 11:37:47,190 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - remoteAddress 0:0:0:0:0:0:0:1
+2025-03-03 11:37:47,190 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - host          localhost:8080
+2025-03-03 11:37:47,190 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - uri           /app/ws/default
+2025-03-03 11:37:47,432 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View created: {app_name: default, host_name: localhost:8080, instance_id: 247265266, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2025-03-03 11:37:47,711 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance created: {app_name: default, host_name: localhost:8080, instance_id: 247265266, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2025-03-03 11:38:15,431 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View closed: {app_name: default, host_name: localhost:8080, instance_id: 247265266, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1, reason: tab-closed}
+2025-03-03 11:38:15,436 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2025-03-03 11:38:15,436 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - Application closed:
+2025-03-03 11:38:15,444 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - startTime      : Mon Mar 03 11:38:15 PST 2025      
+2025-03-03 11:38:15,444 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageLatency : 00:00:00.003 
+2025-03-03 11:38:15,445 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageJitter  : 00:00:00.000  
+2025-03-03 11:38:15,446 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateServer: 00:00:00.000
+2025-03-03 11:38:15,447 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateClient: 00:00:00.000
+2025-03-03 11:38:15,447 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - raw            : 526081
+2025-03-03 11:38:15,447 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - zipped         : 136571
+2025-03-03 11:38:15,447 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2025-03-03 11:38:16,437 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance closed: {app_name: default, host_name: localhost:8080, instance_id: 247265266, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1, reason: close-tab-closed}
+2025-03-03 11:39:18,115 [INFO] from com.jpro.activity in scala-execution-context-global-36 - Starting the server
+2025-03-03 11:39:18,121 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 -  *** Starting JPro: https://www.jpro.one/ ***
+2025-03-03 11:39:18,121 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - OS: Windows 11
+2025-03-03 11:39:18,189 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - JPro: 2025.1.0
+2025-03-03 11:39:18,189 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - Java version: 23.0.2
+2025-03-03 11:39:18,189 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - JVM: 23.0.2 Oracle Corporation
+2025-03-03 11:39:18,192 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - JavaFX jar: file:/C:/Users/Administrator/.m2/repository/org/openjfx/javafx-graphics/23.0.1-jpro+3/javafx-graphics-23.0.1-jpro+3-win.jar
+2025-03-03 11:39:18,206 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - Configuring logging from url: 'jar:file:/C:/Users/Administrator/.m2/repository/one/jpro/jpro-server_2.12/2025.1.0/jpro-server_2.12-2025.1.0.jar!/logback-jpro-default.xml'
+2025-03-03 11:39:19,639 [INFO] from com.jpro.internal.server.JProInitializer$ in JavaFX Application Thread - JavaFX version: 23.0.1-jpro+3
+2025-03-03 11:39:19,777 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - finished init!
+2025-03-03 11:39:19,797 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - [JPro] -> Server started: {start_time: 1741030758113, os_name: Windows 11, jpro_version: 2025.1.0}
+2025-03-03 11:39:20,365 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-6 - Slf4jLogger started
+2025-03-03 11:39:21,499 [INFO] from play.api.Play in Thread-0 - Application started (Prod) (no global state)
+2025-03-03 11:39:22,264 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Enabling HTTP/2 on Akka HTTP server...
+2025-03-03 11:39:22,265 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Listening for HTTP on /[0:0:0:0:0:0:0:0]:8080
+2025-03-03 11:39:24,194 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - application requested: default params: Map()
+2025-03-03 11:39:24,198 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - Creating Application: default
+2025-03-03 11:39:24,202 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - remoteAddress 0:0:0:0:0:0:0:1
+2025-03-03 11:39:24,202 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - host          localhost:8080
+2025-03-03 11:39:24,203 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - uri           /app/ws/default
+2025-03-03 11:39:24,648 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View created: {app_name: default, host_name: localhost:8080, instance_id: 279026387, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2025-03-03 11:39:25,230 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance created: {app_name: default, host_name: localhost:8080, instance_id: 279026387, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2025-03-03 11:40:24,769 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View closed: {app_name: default, host_name: localhost:8080, instance_id: 279026387, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1, reason: tab-closed}
+2025-03-03 11:40:24,774 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2025-03-03 11:40:24,774 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - Application closed:
+2025-03-03 11:40:24,781 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - startTime      : Mon Mar 03 11:40:24 PST 2025      
+2025-03-03 11:40:24,782 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageLatency : 00:00:00.002 
+2025-03-03 11:40:24,782 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageJitter  : 00:00:00.000  
+2025-03-03 11:40:24,782 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateServer: 00:00:00.000
+2025-03-03 11:40:24,783 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateClient: 00:00:00.000
+2025-03-03 11:40:24,783 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - raw            : 851997
+2025-03-03 11:40:24,783 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - zipped         : 219118
+2025-03-03 11:40:24,783 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2025-03-03 11:40:25,776 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance closed: {app_name: default, host_name: localhost:8080, instance_id: 279026387, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1, reason: close-tab-closed}
+2025-03-03 11:41:02,267 [INFO] from com.jpro.activity in scala-execution-context-global-36 - Starting the server
+2025-03-03 11:41:02,270 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 -  *** Starting JPro: https://www.jpro.one/ ***
+2025-03-03 11:41:02,270 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - OS: Windows 11
+2025-03-03 11:41:02,313 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - JPro: 2025.1.0
+2025-03-03 11:41:02,313 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - Java version: 23.0.2
+2025-03-03 11:41:02,313 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - JVM: 23.0.2 Oracle Corporation
+2025-03-03 11:41:02,315 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - JavaFX jar: file:/C:/Users/Administrator/.m2/repository/org/openjfx/javafx-graphics/23.0.1-jpro+3/javafx-graphics-23.0.1-jpro+3-win.jar
+2025-03-03 11:41:02,321 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - Configuring logging from url: 'jar:file:/C:/Users/Administrator/.m2/repository/one/jpro/jpro-server_2.12/2025.1.0/jpro-server_2.12-2025.1.0.jar!/logback-jpro-default.xml'
+2025-03-03 11:41:03,620 [INFO] from com.jpro.internal.server.JProInitializer$ in JavaFX Application Thread - JavaFX version: 23.0.1-jpro+3
+2025-03-03 11:41:03,770 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - finished init!
+2025-03-03 11:41:03,790 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - [JPro] -> Server started: {start_time: 1741030862265, os_name: Windows 11, jpro_version: 2025.1.0}
+2025-03-03 11:41:04,628 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-4 - Slf4jLogger started
+2025-03-03 11:41:05,488 [INFO] from play.api.Play in Thread-0 - Application started (Prod) (no global state)
+2025-03-03 11:41:06,133 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Enabling HTTP/2 on Akka HTTP server...
+2025-03-03 11:41:06,134 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Listening for HTTP on /[0:0:0:0:0:0:0:0]:8080
+2025-03-03 11:41:07,817 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-6 - application requested: default params: Map()
+2025-03-03 11:41:07,822 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-6 - Creating Application: default
+2025-03-03 11:41:07,826 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-6 - remoteAddress 0:0:0:0:0:0:0:1
+2025-03-03 11:41:07,826 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-6 - host          localhost:8080
+2025-03-03 11:41:07,826 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-6 - uri           /app/ws/default
+2025-03-03 11:41:08,263 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View created: {app_name: default, host_name: localhost:8080, instance_id: 1594708856, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2025-03-03 11:41:08,623 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance created: {app_name: default, host_name: localhost:8080, instance_id: 1594708856, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2025-03-03 11:42:37,983 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View closed: {app_name: default, host_name: localhost:8080, instance_id: 1594708856, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1, reason: tab-closed}
+2025-03-03 11:42:37,994 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2025-03-03 11:42:37,994 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - Application closed:
+2025-03-03 11:42:38,015 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - startTime      : Mon Mar 03 11:42:37 PST 2025      
+2025-03-03 11:42:38,016 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageLatency : 00:00:00.003 
+2025-03-03 11:42:38,017 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageJitter  : 00:00:00.000  
+2025-03-03 11:42:38,020 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateServer: 00:00:00.000
+2025-03-03 11:42:38,023 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateClient: 00:00:00.000
+2025-03-03 11:42:38,023 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - raw            : 1603922
+2025-03-03 11:42:38,024 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - zipped         : 382652
+2025-03-03 11:42:38,024 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2025-03-03 11:42:38,989 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance closed: {app_name: default, host_name: localhost:8080, instance_id: 1594708856, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1, reason: close-tab-closed}
+2025-03-03 11:50:12,583 [INFO] from com.jpro.activity in scala-execution-context-global-36 - Starting the server
+2025-03-03 11:50:12,592 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 -  *** Starting JPro: https://www.jpro.one/ ***
+2025-03-03 11:50:12,592 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - OS: Windows 11
+2025-03-03 11:50:12,626 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - JPro: 2025.1.0
+2025-03-03 11:50:12,626 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - Java version: 23.0.2
+2025-03-03 11:50:12,626 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - JVM: 23.0.2 Oracle Corporation
+2025-03-03 11:50:12,628 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - JavaFX jar: file:/C:/Users/Administrator/.m2/repository/org/openjfx/javafx-graphics/23.0.1-jpro+3/javafx-graphics-23.0.1-jpro+3-win.jar
+2025-03-03 11:50:12,640 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - Configuring logging from url: 'jar:file:/C:/Users/Administrator/.m2/repository/one/jpro/jpro-server_2.12/2025.1.0/jpro-server_2.12-2025.1.0.jar!/logback-jpro-default.xml'
+2025-03-03 11:50:13,817 [INFO] from com.jpro.internal.server.JProInitializer$ in JavaFX Application Thread - JavaFX version: 23.0.1-jpro+3
+2025-03-03 11:50:13,968 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - finished init!
+2025-03-03 11:50:13,985 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - [JPro] -> Server started: {start_time: 1741031412581, os_name: Windows 11, jpro_version: 2025.1.0}
+2025-03-03 11:50:14,577 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-5 - Slf4jLogger started
+2025-03-03 11:50:15,734 [INFO] from play.api.Play in Thread-0 - Application started (Prod) (no global state)
+2025-03-03 11:50:16,344 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Enabling HTTP/2 on Akka HTTP server...
+2025-03-03 11:50:16,345 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Listening for HTTP on /[0:0:0:0:0:0:0:0]:8080
+2025-03-03 11:50:19,226 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - application requested: default params: Map()
+2025-03-03 11:50:19,238 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - Creating Application: default
+2025-03-03 11:50:19,247 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - remoteAddress 0:0:0:0:0:0:0:1
+2025-03-03 11:50:19,247 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - host          localhost:8080
+2025-03-03 11:50:19,247 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - uri           /app/ws/default
+2025-03-03 11:50:19,819 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View created: {app_name: default, host_name: localhost:8080, instance_id: 717145519, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2025-03-03 11:50:20,296 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance created: {app_name: default, host_name: localhost:8080, instance_id: 717145519, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2025-03-03 11:51:35,274 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View closed: {app_name: default, host_name: localhost:8080, instance_id: 717145519, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1, reason: tab-closed}
+2025-03-03 11:51:35,284 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2025-03-03 11:51:35,284 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - Application closed:
+2025-03-03 11:51:35,315 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - startTime      : Mon Mar 03 11:51:35 PST 2025      
+2025-03-03 11:51:35,315 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageLatency : 00:00:00.003 
+2025-03-03 11:51:35,315 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageJitter  : 00:00:00.000  
+2025-03-03 11:51:35,320 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateServer: 00:00:00.000
+2025-03-03 11:51:35,324 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateClient: 00:00:00.000
+2025-03-03 11:51:35,325 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - raw            : 1186894
+2025-03-03 11:51:35,325 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - zipped         : 297674
+2025-03-03 11:51:35,325 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2025-03-03 11:51:36,271 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance closed: {app_name: default, host_name: localhost:8080, instance_id: 717145519, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1, reason: close-tab-closed}
+2025-03-03 11:54:22,414 [INFO] from com.jpro.activity in scala-execution-context-global-36 - Starting the server
+2025-03-03 11:54:22,430 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 -  *** Starting JPro: https://www.jpro.one/ ***
+2025-03-03 11:54:22,430 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - OS: Windows 11
+2025-03-03 11:54:22,454 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - JPro: 2025.1.0
+2025-03-03 11:54:22,455 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - Java version: 23.0.2
+2025-03-03 11:54:22,455 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - JVM: 23.0.2 Oracle Corporation
+2025-03-03 11:54:22,457 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - JavaFX jar: file:/C:/Users/Administrator/.m2/repository/org/openjfx/javafx-graphics/23.0.1-jpro+3/javafx-graphics-23.0.1-jpro+3-win.jar
+2025-03-03 11:54:22,461 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - Configuring logging from url: 'jar:file:/C:/Users/Administrator/.m2/repository/one/jpro/jpro-server_2.12/2025.1.0/jpro-server_2.12-2025.1.0.jar!/logback-jpro-default.xml'
+2025-03-03 11:54:23,378 [INFO] from com.jpro.internal.server.JProInitializer$ in JavaFX Application Thread - JavaFX version: 23.0.1-jpro+3
+2025-03-03 11:54:23,542 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - finished init!
+2025-03-03 11:54:23,554 [INFO] from com.jpro.internal.server.JProInitializer$ in scala-execution-context-global-36 - [JPro] -> Server started: {start_time: 1741031662412, os_name: Windows 11, jpro_version: 2025.1.0}
+2025-03-03 11:54:24,067 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-6 - Slf4jLogger started
+2025-03-03 11:54:24,972 [INFO] from play.api.Play in Thread-0 - Application started (Prod) (no global state)
+2025-03-03 11:54:25,753 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Enabling HTTP/2 on Akka HTTP server...
+2025-03-03 11:54:25,755 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Listening for HTTP on /[0:0:0:0:0:0:0:0]:8080
+2025-03-03 11:54:27,560 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-11 - application requested: default params: Map()
+2025-03-03 11:54:27,564 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-11 - Creating Application: default
+2025-03-03 11:54:27,569 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-11 - remoteAddress 0:0:0:0:0:0:0:1
+2025-03-03 11:54:27,570 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-11 - host          localhost:8080
+2025-03-03 11:54:27,570 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-11 - uri           /app/ws/default
+2025-03-03 11:54:27,901 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View created: {app_name: default, host_name: localhost:8080, instance_id: 1164216258, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2025-03-03 11:54:28,208 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance created: {app_name: default, host_name: localhost:8080, instance_id: 1164216258, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1}
+2025-03-03 11:54:31,484 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - [JPro] -> View closed: {app_name: default, host_name: localhost:8080, instance_id: 1164216258, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1, reason: tab-closed}
+2025-03-03 11:54:31,495 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2025-03-03 11:54:31,495 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - Application closed:
+2025-03-03 11:54:31,500 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - startTime      : Mon Mar 03 11:54:31 PST 2025      
+2025-03-03 11:54:31,500 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageLatency : 00:00:00.003 
+2025-03-03 11:54:31,500 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageJitter  : 00:00:00.005  
+2025-03-03 11:54:31,502 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateServer: 00:00:00.000
+2025-03-03 11:54:31,506 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateClient: 00:00:00.000
+2025-03-03 11:54:31,506 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - raw            : 17455
+2025-03-03 11:54:31,508 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - zipped         : 3341
+2025-03-03 11:54:31,508 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2025-03-03 11:54:32,443 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - [JPro] -> Instance closed: {app_name: default, host_name: localhost:8080, instance_id: 1164216258, browser: Google Chrome 133.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1, reason: close-tab-closed}

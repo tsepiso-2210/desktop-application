@@ -1,0 +1,109 @@
+/* Gallery grid styling */
+.gallery-grid {
+    -fx-background-color: grey;
+    -fx-padding: 20px;
+    -fx-alignment: center;
+}
+
+/* ScrollPane styling */
+.gallery-scroll-pane {
+    -fx-background-color: transparent;
+    -fx-padding: 10px;
+}
+
+.gallery-scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+
+.gallery-scroll-pane > .scroll-bar:vertical {
+    -fx-background-color: transparent;
+    -fx-padding: 0 5 0 5;
+}
+
+.gallery-scroll-pane > .scroll-bar:horizontal {
+    -fx-background-color: transparent;
+    -fx-padding: 5 0 5 0;
+}
+
+/* Thumbnail container styling */
+.image-container {
+    -fx-background-color: pink;
+    -fx-padding: 10px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 5, 0, 0, 2);
+    -fx-background-radius: 5px;
+}
+
+.image-container:hover {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 10, 0, 0, 3);
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+    -fx-cursor: hand;
+}
+
+/* Thumbnail image styling */
+.thumbnail {
+    -fx-background-radius: 5px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 2, 0, 0, 1);
+}
+
+/* Full image container styling */
+.full-image-container {
+    -fx-background-color: purple;
+    -fx-padding: 20px;
+    -fx-alignment: center;
+}
+
+/* Full image styling */
+.full-image {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 10, 0, 0, 3);
+}
+
+/* Navigation button styling */
+.navigation-button {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.navigation-button:hover {
+    -fx-background-color: #2980b9;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 4, 0, 0, 2);
+}
+
+.navigation-button:pressed {
+    -fx-background-color: #808080;
+}
+
+/* Download button styling */
+.download-button {
+    -fx-background-color: #2ecc71;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.download-button:hover {
+    -fx-background-color: #27ae60;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 4, 0, 0, 2);
+}
+
+.download-button:pressed {
+    -fx-background-color: #219a52;
+}
+
+/* Error container styling */
+.error-container {
+    -fx-background-color: #3498db;
+    -fx-padding: 40px;
+    -fx-spacing: 20px;
+}
+
+.error-message {
+    -fx-font-size: 18px;
+    -fx-text-fill: #e74c3c;
+}

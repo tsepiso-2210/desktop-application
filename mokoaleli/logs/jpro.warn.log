@@ -1,0 +1,2 @@
+2025-03-03 05:15:37,092 [ERROR] from com.jpro.JS in JavaFX Application Thread - received msg: Unexpected exception: NotFoundError: Failed to execute 'setPointerCapture' on 'Element': No active pointer with the given id is found.
+2025-03-03 05:26:07,212 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-24 - jpro.plainFile - Couldn't get resource for: 'jpro/html/HNAP1/index.html'
